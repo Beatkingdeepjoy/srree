@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love For You, Wify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600;700&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="container">
+        <header class="animate-in delay-1">
+            <h1 class="logo">My Eternal Love</h1>
+            <p class="subtitle">For My Beautiful Wify</p>
+        </header>
+
+        <main class="content">
+            <div class="card tilt-card animate-in delay-2">
+                <div class="card-content">
+                    <h2 class="card-title">My Dearest Wify</h2>
+                    <div class="love-message">
+                        <p>Every moment with you is a treasure, and every day I fall more deeply in love with you.</p>
+                        <p>You are the <span class="highlight">sunshine</span> that brightens my days and the <span class="highlight">moonlight</span> that guides my nights.</p>
+                        <p>Today and always, I want you to know that <span class="highlight">I LOVE YOU JUNNU</span> with all my heart.</p>
+                        <p>You are my everything, my forever, my <span class="highlight">WIFY</span>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card tilt-card proposal animate-in delay-3">
+                <div class="card-content">
+                    <h2 class="card-title">My Promise to You</h2>
+                    <div class="ring-container">
+                        <div class="ring-glow"></div>
+                        <div class="ring">
+                            <i class="fas fa-ring"></i>
+                            <div class="sparkle"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="proposal-text" id="proposal-text">Will You Marry Me?</div>
+                    
+                    <div class="buttons">
+                        <button class="btn yes-btn" id="yes-btn">
+                            <span class="btn-bg"></span>
+                            <span class="btn-text"><i class="fas fa-heart"></i> YES!</span>
+                        </button>
+                        <button class="btn no-btn" id="no-btn">
+                            <span class="btn-text">No <i class="fas fa-sad-tear"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card tilt-card love-note animate-in delay-4">
+                <div class="card-content">
+                    <h2 class="card-title">Our Love Note</h2>
+                    <textarea class="note-textarea" id="love-note" placeholder="Write your personal love note here...">My Dearest Wify,
+From the moment I met you, my life has been filled with joy and meaning. You are my greatest blessing, and I cherish every moment we share together.
+
+With all my love,
+Your Junnu</textarea>
+                    <button class="btn save-btn" id="save-note">
+                        <i class="fas fa-save"></i> Save Note
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="animate-in delay-5">
+            <div class="couple-name">Deepjoy & Sreenanda</div>
+            <p>Forever and Always</p>
+        </footer>
+    </div>
+
+    <div class="sound-control" id="sound-control">
+        <i class="fas fa-volume-up" id="sound-icon"></i>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="https://assets.mixkit.co/music/preview/mixkit-loving-you-117.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="heart-sound">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-heartbeat-1184.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="yes-sound">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-happy-crowd-laugh-464.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>>
